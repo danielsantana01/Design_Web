@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <link rel="icon" href="imgs/favicon.ico">
+        <meta charset="utf-8">
+        <meta name="author" content="Daniel Santana">
+        <meta name="keywords" content="HTML, Tags, Links">
+        <title>My Man</title>
+    </head>
+    <body>
+        <p id="start">Início</p>
+        <!--Comentário Aqui-->
+        <p>Parágrafo normal aqui</p>
+        <span>Texto normal de no máximo uma linha aqui</span> 
+        <p>Testando quebra <br> de linha</p>
+        <hr>
+        <h1>Título 1</h1>
+        <h2>Título 2</h2>
+        <h3>Título 3</h3>
+        <h4>Título 4</h4>
+        <h5>Título 5</h5>
+        <h6>Título 6</h6>
+        <hr>
+        <!--Listas-->
+        <p>Lista Não Ordenada:</p>
+        <ul>
+            <li>Item</li>
+            <li>Item</li>
+            <li>Item</li>
+        </ul>
+        <p>Lista Ordenada:</p>
+        <ol type="i">
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ol>
+        <p>Texto <b>Negrito</b></p>
+        <p>Texto <i>Itálico</i> <em>Itálico</em></p>
+        <hr>
+        <h1>Valor Semântico</h1>
+        <p>Referenciando um texto: <i><abbr title="TEXTO">PASSE O MOUSE</abbr></i></p>
+        <p>Referenciando uma sigla (mais semântico) <acronym title="Escola Preparatória de Cadetes do Ar">EPCAR</acronym></p>
+        <p>Como citar uma frase: <cite>Vamos procurar viver em igualdade</cite></p>
+        <blockquote cite="https://open.spotify.com/artist/0d5h2QZDuhDnoVyFbdA4uG">
+            <p>Você não vale nada (Com Referência)</p>
+        </blockquote>
+        <p>Sentido de definição: O <dfn>GPLA</dfn> é um servidor</p>
+        <p>Informações:</p>
+        <address>
+            <p>Rua: Rua</p>
+            <p>Telefone: 12893812</p>
+            <p>Email: asdas@i.com</p>
+        </address>
+        <p>Sentido de mudança:</p>
+        <p>Antes era <del>R$ 100,00</del> e agora é <ins>R$ 50,00</ins></p>
+        <!--Links-->
+        <a href="http://www.youtube.com" target="_blank">Clique aqui para ir para o YouTube</a>
+        <hr>
+        <img src="imgs/ednaldo_pereira.png" width="800" height="300" title="ednaldo pereira" alt="ednaldo pereira">
+        <br>
+        <hr>
+        <table border="1">
+            <caption>Junção de Colunas</caption>
+            <tr>
+                <th colspan="3" style="text-align: center;">__Linha 1__</th>
+            </tr>
+            <tr>
+                <td>Linha 2/Coluna 1</td>
+                <td>Linha 2/Coluna 2</td>
+                <td>Linha 3/Coluna 3</td>
+            </tr>
+            <tr>
+                <th colspan="3" style="text-align: center;">__Linha 3__</th>
+            </tr>
+        </table>
+        <br>
+        <table border="1">
+            <caption>Junção de Linhas</caption>
+            <tr>
+                <th rowspan="3" style="text-align: center; vertical-align: middle;">__Coluna 1__</th>
+                <td>Linha 1/Coluna 2</td>
+                <th rowspan="3" style="text-align: center; vertical-align: middle;">__Coluna 3__</th>
+            </tr>
+            <tr>
+                <td>Linha 2/Coluna 2</td>
+            </tr>
+            <tr>
+                <td>Linha 3/Coluna 2</td>
+            </tr>
+        </table>
+        <br>
+        <table border="1">
+            <caption>Exercício 01</caption>
+            <tr>
+                <th colspan="2" height='20' bgcolor="red"></th>
+                <td width='150'></td>
+                <td width='150'></td>
+            </tr>
+            <tr>
+                <td width='150' height='20' bgcolor="blue"></td>
+                <td width='150' rowspan="2" bgcolor="yellow"></td>
+                <td></td>
+                <td rowspan="2" bgcolor="green"></td>
+            </tr>
+            <tr>
+                <td height='20'></td>
+                <td></td>
+            </tr>
+        </table>
+        <br>
+        <table border="1">
+            <caption>Exercício 02</caption>
+            <tr>
+                <td bgcolor="yellow" width = '150' height='20'></td>
+                <td width='150'></td>
+                <td width='150'></td>
+                <td width='150'></td>
+                <td rowspan="2" bgcolor="red" width='150'></td>
+            </tr>
+            <tr>
+                <td height='20'></td>
+                <td colspan="2" bgcolor="green"></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td height='20'></td>
+                <td colspan="3" bgcolor="blue"></td>
+                <td></td>
+            </tr>
+        </table>
+
+        <br>
+        <a href="#start">Clique aqui para voltar para o começo</a>
+    </body>
+</html>
