@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Daniel Santana">
+        <meta name="keywords" content="Formulários, Inputs, Textarea">
+        <title>Atividade 07</title>
+    </head>
+    <body>
+        <h2>Informações do Usuário</h2>
+        <p>Por favor, preencha os dados abaixo com relação ao registro de identificação do usuário:</p>
+        <form method="post" action="#">
+            Usuário: <input type="text" size="20" name="nome"> <br>
+            Senha: <input type="text" size="20" name="senha"> <br><br>
+            Sexo: <br>
+            <input type="radio" name="sexo" value="masculino"> Masculino <br>
+            <input type="radio" name="sexo" value="feminino"> Feminino <br><br>
+            Como conheceu o site: <br>
+            <select name="marketing">
+                <option value="amigos">Amigos</option>
+                <option value="familiares">Familiares</option>
+                <option value="outros">Outros</option>
+            </select> <br><br>
+            <input type="checkbox" name="termos"> Eu aceito os <a href="termos.pdf">Termos de Uso</a> de Usuário.
+            <br><br>
+            <button>
+                <img src="botão.png" alt="botão de enviar" width="185" height="45">
+            </button>
+        </form>
+    </body>     
+</html>
