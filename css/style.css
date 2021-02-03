@@ -1,0 +1,68 @@
+* {
+    font-family: sans-serif;
+}
+
+h4 {
+    text-align: center;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+#input {
+    width: 480px;
+}
+
+#mensagem_input {
+    width: 500px;
+}
+
+#p_contato, #contato {
+    margin-left: 725px;
+}
+
+#p_contato {
+    font-weight: bold;
+    color: green;
+}
+
+.table1 {
+    width: 360px;
+    border: 1px solid gray;
+    border-width: 3px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.td1, .td2 {
+    width: 721px;
+}
+
+.td1 {
+    text-align: right;
+    vertical-align: top;
+}
+
+.td2 {
+    text-align: left;
+}
+
+.topicos {
+    color: mediumblue;
+    font-weight: bold;
+}
+
+.titulos {
+    text-align: center;
+    font-weight: bold;
+    background-color: cyan;
+}
+
+.links {
+    text-decoration: none;
+    color: royalblue;
+}
+
+#municipios {
+    vertical-align: top;
+}
