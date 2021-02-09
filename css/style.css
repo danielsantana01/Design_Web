@@ -1,0 +1,59 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    text-align: center;
+    background-color: gray;
+    color: white;
+}
+
+img {
+    height: 20px;
+    width: 20px;
+}
+
+a {
+    text-decoration: none;
+    color:darkgray;
+}
+
+.topico, .titulo, .paragrafo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.paragrafo {
+    color: gray;
+}
+
+.topico {
+    color: blue;
+}
+
+.titulo {
+    color: red;
+}
+
+.titulo-azul {
+    font-family: sans-serif;
+    color: blue;
+}
+
+.titulo-laranja {
+    font-family: sans-serif;
+    color: orange;
+}
+
+.titulo-cinza {
+    font-family: sans-serif;
+    color: gray;
+}
+
+table {
+    text-align: left;
+    border: 3px solid black;
+}
+
+th, tr, td {
+    border: 1px solid black;
+}
